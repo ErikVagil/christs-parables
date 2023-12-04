@@ -1,0 +1,64 @@
+@use './globals.module.scss' as *;
+
+:root {
+  font-family: jost, sans-serif;
+}
+
+body {
+  margin: 0;
+	background: linear-gradient(-45deg, $clr-primary, $clr-dark);
+	background-size: 400% 400%;
+	animation: gradient 6s ease infinite;
+	height: 100vh;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+nav {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  max-width: 100dvw;
+  padding-block: 1.5rem;
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+li > a {
+  text-decoration: none;
+  color: $clr-text;
+  font-size: 1.25rem;
+  padding: 1rem;
+}
+
+li > a:hover {
+  border-bottom: 2px solid $clr-text;
+}
+
+.active-link {
+  color: $clr-light;
+  border-bottom: 2px solid $clr-light;
+}
+
+.active-link:hover {
+  border-bottom: 2px solid $clr-light;
+}

@@ -5,6 +5,7 @@ import GoodSamaritan from './pages/GoodSamaritan';
 import ProdigalSon from './pages/ProdigalSon';
 import SowerSoils from './pages/SowerSoils';
 import NoPage from './pages/NoPage';
+import './globals.module.scss';
 
 export default function App(): JSX.Element {
   return <BrowserRouter>
