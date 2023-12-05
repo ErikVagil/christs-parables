@@ -1,5 +1,6 @@
 import { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
+import { BoxArrowUpRight } from 'react-bootstrap-icons';
 import './Home.scss';
 
 export default function Home() {
@@ -19,22 +20,25 @@ export default function Home() {
     <div className='spacer' style={{height: navHeight}} />
     <span className='main-header'>
       <h1>Come, follow me.</h1>
-      <p>Luke 9:23</p>
+      <a href='https://www.churchofjesuschrist.org/study/scriptures/nt/luke/9?lang=eng&id=p23#p23' target="_blank">
+        Luke 9:23 <BoxArrowUpRight size={12}/></a>
     </span>
     <h2>Explore some of the parables that Jesus Christ taught during his mortal ministry.</h2>
     <div className='gallery'>
       <Link to='/good-samaritan'>
-        <img src='stock1.jpg' width={300}></img>
+        <img className='gallery-img' src='stock1.jpg' width={300}></img>
         <p className='caption'>The Good Samaritan</p>
       </Link>
       <Link to='prodigal-son'>
-        <img src='stock2.jpg' width={300}></img>
+        <img className='gallery-img' src='stock2.jpg' width={300}></img>
         <p className='caption'>The Prodigal Son</p>
       </Link>
       <Link to='sower-soils'>
-        <img src='stock3.jpg' width={300}></img>
+        <img className='gallery-img' src='stock3.jpg' width={300}></img>
         <p className='caption'>The Sower and Soils</p>
       </Link>
     </div>
+    <div className='spacer' style={{height: '3rem'}} />
+    <p className='copyright-disclaimer'>&copy; 2023 Erik Vagil</p>
   </div>;
 }

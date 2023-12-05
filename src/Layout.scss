@@ -2,10 +2,12 @@
 
 :root {
   font-family: jost, sans-serif;
+  overflow-x: hidden;
 }
 
 body {
   margin: 0;
+  background-color: $clr-primary;
 	background: linear-gradient(-45deg, $clr-primary, $clr-dark);
 	background-size: 400% 400%;
 	animation: gradient 6s ease infinite;
@@ -25,11 +27,12 @@ body {
 }
 
 nav {
+  z-index: 1;
   position: absolute;
   top: 0;
   width: 100%;
   max-width: 100dvw;
-  padding-block: 1.5rem;
+  padding-block: 0.5rem;
   background-color: rgba(0, 0, 0, 0.1);
 }
 
@@ -43,11 +46,16 @@ ul {
   flex-wrap: wrap;
 }
 
+li {
+  margin-block: 1rem;
+}
+
 li > a {
   text-decoration: none;
   color: $clr-text;
   font-size: 1.25rem;
-  padding: 1rem;
+  padding-inline: 1rem;
+  padding-block: 0.5rem;
 }
 
 li > a:hover {
@@ -61,4 +69,19 @@ li > a:hover {
 
 .active-link:hover {
   border-bottom: 2px solid $clr-light;
+}
+
+.copyright-disclaimer {
+  position: absolute;
+  bottom: 0;
+  padding-bottom: 1.25rem;
+  left: 50%;
+  transform: translate(-50%, 0);
+  margin: 0;
+}
+
+@media (max-width: 1023px) {
+  ul {
+    margin-inline: 1rem;
+  }
 }

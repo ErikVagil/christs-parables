@@ -24,6 +24,9 @@ export default function Layout(): JSX.Element {
       <li>
         <Link to='/sower-soils' className={activeLink === '/sower-soils' ? 'active-link' : ''}>The Sower and Soils</Link>
       </li>
+      <li>
+        <Link to='/about' className={activeLink === '/about' ? 'active-link' : ''}>About</Link>
+      </li>
     </ul>
   </nav>
 

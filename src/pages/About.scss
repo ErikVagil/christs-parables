@@ -1,0 +1,31 @@
+@use '../globals.module.scss' as *;
+
+.about {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-inline: 1rem;
+  position: relative;
+}
+
+h1 {
+  color: $clr-text;
+  margin-bottom: 0;
+  text-align: center;
+}
+
+p {
+  color: $clr-text;
+  text-align: center;
+}
+
+a {
+  color: $clr-light;
+}
+
+@media (min-width: 768px) {
+  .about {
+    max-width: max(768px, 50%);
+    margin-inline: auto;
+  }
+}

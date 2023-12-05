@@ -4,6 +4,7 @@ import Home from './pages/Home';
 import GoodSamaritan from './pages/GoodSamaritan';
 import ProdigalSon from './pages/ProdigalSon';
 import SowerSoils from './pages/SowerSoils';
+import About from './pages/About';
 import NoPage from './pages/NoPage';
 import './globals.module.scss';
 
@@ -15,6 +16,7 @@ export default function App(): JSX.Element {
       <Route path='good-samaritan' element={<GoodSamaritan />} />
       <Route path='prodigal-son' element={<ProdigalSon />} />
       <Route path='sower-soils' element={<SowerSoils />} />
+      <Route path='about' element={<About />} />
       <Route path='*' element={<NoPage />} />
     </Route>
   </Routes>

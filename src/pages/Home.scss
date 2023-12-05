@@ -2,6 +2,8 @@
 
 .home {
   text-align: center;
+  min-height: 100dvh;
+  position: relative;
 }
 
 .main-header > h1 {
@@ -11,10 +13,11 @@
   margin-bottom: 0;
 }
 
-.main-header > p {
+.main-header > a {
   margin-top: 0;
   margin-bottom: 3rem;
-  color: $clr-light
+  color: $clr-light;
+  text-decoration: none;
 }
 
 h2 {
@@ -23,7 +26,7 @@ h2 {
 }
 
 .gallery {
-  margin-top: 4rem;
+  margin-block: 4rem;
   margin-inline: auto;
   display: flex;
   flex-wrap: wrap;
@@ -38,9 +41,9 @@ h2 {
 }
 
 .gallery > a:hover {
-  transform: scale(1.5);
-  margin-inline: 5rem;
+  transform: scale(1.25);
   filter: drop-shadow(0 0 7px rgba(0, 0, 0, 0.5));
+  margin-inline: 2rem;
 }
 
 .caption {
@@ -49,13 +52,15 @@ h2 {
 }
 
 @media (max-width: 1023px) {
+  .home {
+    margin-inline: 1rem;
+  }
+
   .gallery {
     flex-direction: column;
   }
 
   .gallery > a:hover {
-    transform: scale(1.5);
-    margin-inline: 5rem;
-    margin-block: 2.5rem;
+    transform: scale(1.15);
   }
 }
