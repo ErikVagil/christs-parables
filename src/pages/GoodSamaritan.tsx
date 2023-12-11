@@ -1,6 +1,12 @@
 import { useEffect, useState } from 'react';
 import { BoxArrowUpRight, ChevronLeft, ChevronRight } from 'react-bootstrap-icons';
 import './GoodSamaritan.scss';
+import gs1 from '../images/good-samaritan/GoodSamaritan1.svg';
+import gs2 from '../images/good-samaritan/GoodSamaritan2.svg';
+import gs3 from '../images/good-samaritan/GoodSamaritan3.svg';
+import gs4 from '../images/good-samaritan/GoodSamaritan4.svg';
+import gs5 from '../images/good-samaritan/GoodSamaritan5.svg';
+import gs6 from '../images/good-samaritan/GoodSamaritan6.svg';
 
 export default function GoodSamaritan() {
   const slideDeck: JSX.Element[] = [
@@ -13,12 +19,12 @@ export default function GoodSamaritan() {
     </div>
   </div>,
   <div className='gs slide-1'>
-    <img src='good-samaritan/GoodSamaritan1.svg'></img>
+    <img src={gs1}></img>
     <p className='p1'>One day, Jesus was ministering to a group of Jews. While he taught them, a lawyer asked Jesus how he could obtain eternal life.</p>
     <p className='p2'>In response, Jesus asked the lawyer to tell Him what the law said.</p>
   </div>,
   <div className='gs slide-2'>
-    <img src='good-samaritan/GoodSamaritan2.svg'></img>
+    <img src={gs2}></img>
     <p className='p1'>The law taught the Jews that they had to love God with all their heart, soul, and strength, and love their neighbor as they
     loved themselves.</p>
     <p className='p2'>Jesus affirmed that the law was correct and the lawyer would achieve eternal life if he followed it.</p>
@@ -26,38 +32,38 @@ export default function GoodSamaritan() {
     <p className='p4'>To answer his question, Jesus told the man a parable.</p>
   </div>,
   <div className='gs slide-3'>
-    <img src='good-samaritan/GoodSamaritan3.svg'></img>
+    <img src={gs3}></img>
     <p className='p1'>A certain man walked from Jerusalem to Jericho, when he was ambushed by a band of thieves. The thieves took his clothes and
     beat him until he was barely alive.</p>
     <p className="p2">By some miracle, a priest came down the road. When the priest saw him, however, he moved to the other side of the road, 
     continued walking, and didn't help the man.</p>
   </div>,
   <div className='gs slide-4'>
-    <img src='good-samaritan/GoodSamaritan4.svg'></img>
+    <img src={gs4}></img>
     <p className='p1'>Then, another person came down the road&#8212;this time a Levite.</p>
     <p className='p2'>Like the priest, though, the Levite continued walking when he saw the wounded man.</p>
   </div>,
   <div className='gs slide-5'>
-    <img src='good-samaritan/GoodSamaritan5.svg'></img>
+    <img src={gs5}></img>
     <p className='p1'>Finally, a certain Samaritan came down the road. When he saw the wounded man, he had compassion and went to help him.</p>
     <p className='p2'>The Samaritan bandaged the man's wounds after he cleaned them with oil and wine.</p>
   </div>,
   <div className='gs slide-6'>
-    <img src='good-samaritan/GoodSamaritan6.svg'></img>
+    <img src={gs6}></img>
     <p className='p1'>After tending to the man's wounds, the Samaritan brought him to an inn and took care of him.</p>
     <p className='p2'>The next morning, the Samaritan left after paying the innkeeper and instructing them to take care of the man, offering to
     pay the difference if they spent more than the payment doing so.</p>
   </div>,
   <div className='gs slide-7'>
-  <img src='good-samaritan/GoodSamaritan1.svg'></img>
-  <p className='p1'>Once Jesus finished telling the parable, He asked the lawyer who was a neighbor to the man.</p>
-  <p className='p2'>The lawyer answered that it was the person who showed mercy on him, and Jesus instructed him to be the same kind of neighbor 
+  <img src={gs1}></img>
+  <p className='p1'>Once Jesus finished telling the parable, He asked the lawyer which of them were a neighbor to the man.</p>
+  <p className='p2'>The lawyer answered that it was the man who showed mercy, and Jesus instructed him to be the same kind of neighbor 
   to others.</p>
   </div>,
   <div className='gs slide-8'>
     <div>
-      <h1>The End</h1>
-      <p>Now, who will you be a neighbor to?</p>
+      <h1>The End.</h1>
+      <p>Who can you be a neighbor to?</p>
     </div>
   </div>]
   const [slideIndex, setSlideIndex] = useState<number>(0);

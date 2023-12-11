@@ -11,12 +11,12 @@ import './globals.module.scss';
 export default function App(): JSX.Element {
   return <BrowserRouter>
   <Routes>
-    <Route path='/' element={<Layout />}>
+    <Route path='/christs-parables/' element={<Layout />}>
       <Route index element={<Home />} />
-      <Route path='good-samaritan' element={<GoodSamaritan />} />
-      <Route path='prodigal-son' element={<ProdigalSon />} />
-      <Route path='sower-soils' element={<SowerSoils />} />
-      <Route path='about' element={<About />} />
+      <Route path='/christs-parables/good-samaritan' element={<GoodSamaritan />} />
+      <Route path='/christs-parables/prodigal-son' element={<ProdigalSon />} />
+      <Route path='/christs-parables/sower-soils' element={<SowerSoils />} />
+      <Route path='/christs-parables/about' element={<About />} />
       <Route path='*' element={<NoPage />} />
     </Route>
   </Routes>

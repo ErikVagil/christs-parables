@@ -13,19 +13,19 @@ export default function Layout(): JSX.Element {
   <nav>
     <ul>
       <li>
-        <Link to='/' className={activeLink === '/' ? 'active-link' : ''}>Home</Link>
+        <Link to='/christs-parables/' className={activeLink === '/christs-parables/' ? 'active-link' : ''}>Home</Link>
       </li>
       <li>
-        <Link to='/good-samaritan' className={activeLink === '/good-samaritan' ? 'active-link' : ''}>The Good Samaritan</Link>
+        <Link to='/christs-parables/good-samaritan' className={activeLink === '/christs-parables/good-samaritan' ? 'active-link' : ''}>The Good Samaritan</Link>
       </li>
       <li>
-        <Link to='/prodigal-son' className={activeLink === '/prodigal-son' ? 'active-link' : ''}>The Prodigal Son</Link>
+        <Link to='/christs-parables/prodigal-son' className={activeLink === '/christs-parables/prodigal-son' ? 'active-link' : ''}>The Prodigal Son</Link>
       </li>
       <li>
-        <Link to='/sower-soils' className={activeLink === '/sower-soils' ? 'active-link' : ''}>The Sower and Soils</Link>
+        <Link to='/christs-parables/sower-soils' className={activeLink === '/christs-parables/sower-soils' ? 'active-link' : ''}>The Sower and Soils</Link>
       </li>
       <li>
-        <Link to='/about' className={activeLink === '/about' ? 'active-link' : ''}>About</Link>
+        <Link to='/christs-parables/about' className={activeLink === '/christs-parables/about' ? 'active-link' : ''}>About</Link>
       </li>
     </ul>
   </nav>

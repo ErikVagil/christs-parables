@@ -2,6 +2,8 @@ import { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
 import { BoxArrowUpRight } from 'react-bootstrap-icons';
 import './Home.scss';
+import devIconURL from '../images/DevIcon.svg';
+import goodSamaritanURL from '../images/good-samaritan/GoodSamaritanIcon.svg';
 
 export default function Home() {
   const [navHeight, setNavHeight] = useState<number>(0);
@@ -25,16 +27,16 @@ export default function Home() {
     </span>
     <h2>Explore some of the parables that Jesus Christ taught during his mortal ministry.</h2>
     <div className='gallery'>
-      <Link to='/good-samaritan'>
-        <img className='gallery-img' src='stock1.jpg' width={300}></img>
+      <Link to='/christs-parables/good-samaritan'>
+        <img className='gallery-img' src={goodSamaritanURL} width={300}></img>
         <p className='caption'>The Good Samaritan</p>
       </Link>
-      <Link to='prodigal-son'>
-        <img className='gallery-img' src='stock3.jpg' width={300}></img>
+      <Link to='/christs-parables/prodigal-son'>
+        <img className='gallery-img' src={devIconURL} width={300}></img>
         <p className='caption'>The Prodigal Son</p>
       </Link>
-      <Link to='sower-soils'>
-        <img className='gallery-img' src='stock2.jpg' width={300}></img>
+      <Link to='/christs-parables/sower-soils'>
+        <img className='gallery-img' src={devIconURL} width={300}></img>
         <p className='caption'>The Sower and Soils</p>
       </Link>
     </div>

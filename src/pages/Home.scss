@@ -50,6 +50,10 @@ h3 {
   margin-inline: 2rem;
 }
 
+.gallery > a > img {
+  border: 2px solid black;
+}
+
 .caption {
   margin: 0;
   text-align: center;

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- Created with Vectornator (http://vectornator.io/) -->
+<svg height="100%" stroke-miterlimit="10" style="fill-rule:nonzero;clip-rule:evenodd;stroke-linecap:round;stroke-linejoin:round;" version="1.1" viewBox="0 0 1920 1080" width="100%" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:vectornator="http://vectornator.io" xmlns:xlink="http://www.w3.org/1999/xlink">
+<defs>
+<linearGradient gradientTransform="matrix(0.000789473 0.281833 -3.15369 0.00892398 1703.06 13.4626)" gradientUnits="userSpaceOnUse" id="LinearGradient" x1="-84.301" x2="2025.06" y1="235.859" y2="235.859">
+<stop offset="0" stop-color="#3395ff"/>
+<stop offset="0.99375" stop-color="#ffffff"/>
+<stop offset="1" stop-color="#000000"/>
+</linearGradient>
+</defs>
+<g id="Sketch" vectornator:layerName="Sketch" visibility="hidden">
+<path d="M418.091 224.063C397.924 212.806 437.859 274.867 437.888 274.904C461.461 304.707 487.774 319.382 524.41 320.27C614.007 322.442 696.427 246.781 673.99 145.063C648.363 28.8796 499.366 20.4266 434.955 101.262C415.935 125.131 413.338 159.294 408.559 188.865C406.215 203.368 404.765 209.508 405.626 223.281C405.824 226.445 404.433 234.085 407.092 232.667C414.21 228.87 421.346 225.88 418.091 224.063Z" fill="none" opacity="1" stroke="#007aff" stroke-linecap="round" stroke-linejoin="round" stroke-width="10" vectornator:layerName="Curve 1"/>
+<path d="M498.014 312.448C487.923 316.036 459.384 404.948 452.553 421.952C435.493 464.415 429.938 510.332 414.425 553.357C387.911 626.893 351.043 699.876 327.903 773.93" fill="none" opacity="1" stroke="#007aff" stroke-linecap="round" stroke-linejoin="round" stroke-width="10" vectornator:layerName="Curve 2"/>
+<path d="M314.704 789.573C363.243 784.395 410.362 787.311 458.419 777.058C474.353 773.659 492.279 763.049 506.812 770.801C522.045 778.926 512.666 812.355 511.212 823.989C506.576 861.078 506.71 933.602 480.416 961.651" fill="none" opacity="1" stroke="#007aff" stroke-linecap="round" stroke-linejoin="round" stroke-width="10" vectornator:layerName="Curve 3"/>
+<path d="M313.238 791.138C292.452 829.941 301.637 880.829 286.841 922.542C262.733 990.51 140.165 1001.79 84.4679 981.988" fill="none" opacity="1" stroke="#007aff" stroke-linecap="round" stroke-linejoin="round" stroke-width="10" vectornator:layerName="Curve 4"/>
+<path d="M464.285 328.092C431.067 342.265 477.234 464.674 483.349 484.526C509.76 570.271 537.652 648.698 594.801 717.613C631.684 762.09 676.582 796.033 710.652 842.761" fill="none" opacity="1" stroke="#007aff" stroke-linecap="round" stroke-linejoin="round" stroke-width="10" vectornator:layerName="Curve 5"/>
+<path d="M471.617 335.913C605.021 374.724 675.3 414.384 764.912 529.892C795.178 568.904 825.425 598.492 832.37 650.347" fill="none" opacity="1" stroke="#007aff" stroke-linecap="round" stroke-linejoin="round" stroke-width="10" vectornator:layerName="Curve 6"/>
+<path d="M1606.78 632.026C1561.3 666.684 1592.12 728.761 1632.65 753.467C1703.6 796.716 1849.4 735.554 1834.47 632.026C1832.46 618.105 1816.05 588.523 1810.32 578.666C1758.64 489.849 1667.48 567.814 1618.85 622.826C1597.42 647.073 1580.62 659.658 1586.08 694.587" fill="none" opacity="1" stroke="#007aff" stroke-linecap="round" stroke-linejoin="round" stroke-width="10" vectornator:layerName="Curve 7"/>
+<path d="M1610.23 766.347C1587.98 778.215 1579.21 806.372 1561.93 823.388C1544.55 840.505 1514.46 848.896 1492.94 858.348C1457.6 873.869 1410.1 869.691 1372.19 874.908C1319.25 882.196 1266.47 885.36 1213.5 891.468C1180.5 895.274 1149.68 909.179 1116.91 913.548" fill="none" opacity="1" stroke="#007aff" stroke-linecap="round" stroke-linejoin="round" stroke-width="10" vectornator:layerName="Curve 8"/>
+<path d="M1104.84 898.828C1073.8 898.828 1015.54 749.574 973.744 771.867C962.863 777.671 968.441 935.563 966.844 957.709C965.747 972.923 960.2 1001.38 954.77 1016.59C953.343 1020.58 940.149 1035.43 947.87 1031.31" fill="none" opacity="1" stroke="#007aff" stroke-linecap="round" stroke-linejoin="round" stroke-width="10" vectornator:layerName="Curve 9"/>
+<path d="M1091.04 895.148C1059.69 895.148 963.369 878.073 915.097 863.868C893.5 857.512 872.688 843.394 849.551 850.988C812.489 863.153 777.027 913.683 747.782 939.309C733.344 951.96 687.411 968.795 687.411 990.829" fill="none" opacity="1" stroke="#007aff" stroke-linecap="round" stroke-linejoin="round" stroke-width="10" vectornator:layerName="Curve 10"/>
+<path d="M1618.85 742.427C1621.05 745.522 1632.84 738.747 1629.2 738.747C1621.71 738.747 1615.75 738.051 1618.85 742.427Z" fill="none" opacity="1" stroke="#007aff" stroke-linecap="round" stroke-linejoin="round" stroke-width="10" vectornator:layerName="Curve 11"/>
+<path d="M1606.78 777.387C1667.91 820.861 1662.14 889.968 1618.85 950.349C1611.34 960.827 1584.12 985.819 1577.46 1000.03" fill="none" opacity="1" stroke="#007aff" stroke-linecap="round" stroke-linejoin="round" stroke-width="10" vectornator:layerName="Curve 12"/>
+<path d="M1582.63 777.387C1452.75 777.387 1346.28 751.755 1299.75 900.668" fill="none" opacity="1" stroke="#007aff" stroke-linecap="round" stroke-linejoin="round" stroke-width="10" vectornator:layerName="Curve 13"/>
+</g>
+<clipPath id="ArtboardFrame">
+<rect height="1080" width="1920" x="0" y="0"/>
+</clipPath>
+<g clip-path="url(#ArtboardFrame)" id="Layer-2" vectornator:layerName="Layer 2">
+<g opacity="1" vectornator:layerName="Group 1">
+<path d="M1918.33-10.9055L1920 583.58L1.66528 589.009L2.84217e-14-5.47719L1918.33-10.9055Z" fill="url(#LinearGradient)" fill-rule="nonzero" opacity="1" stroke="none" vectornator:layerName="Rectangle 1"/>
+<path d="M2.84217e-14 583.58L1920 583.58L1920 1080L2.84217e-14 1080L2.84217e-14 583.58Z" fill="#bda27c" fill-rule="nonzero" opacity="1" stroke="none" vectornator:layerName="Rectangle 2"/>
+</g>
+</g>
+<g id="Layer-1" vectornator:layerName="Layer 1">
+<path d="M399.278 177.816C399.278 99.1149 462.974 35.3155 541.548 35.3155C620.122 35.3155 683.818 99.1149 683.818 177.816C683.818 256.516 620.122 320.316 541.548 320.316C462.974 320.316 399.278 256.516 399.278 177.816Z" fill="#ffffff" fill-rule="nonzero" opacity="1" stroke="#150b14" stroke-linecap="butt" stroke-linejoin="round" stroke-width="10" vectornator:layerName="Oval 1"/>
+<path d="M493.649 315.501L315.161 783.914L493.649 315.501Z" fill="none" opacity="1" stroke="#150b14" stroke-linecap="butt" stroke-linejoin="round" stroke-width="10" vectornator:layerName="Curve 1"/>
+<path d="M491.249 323.369C399.278 493.13 568.176 809.536 710.652 848.801" fill="none" opacity="1" stroke="#150b14" stroke-linecap="butt" stroke-linejoin="round" stroke-width="10" vectornator:layerName="Curve 3"/>
+<path d="M487.244 328.092C645.076 335.913 817.71 562.498 832.37 667.542" fill="none" opacity="1" stroke="#150b14" stroke-linecap="butt" stroke-linejoin="round" stroke-width="10" vectornator:layerName="Curve 2"/>
+<path d="M315.505 783.959C315.505 783.959 471.617 754.651 507.289 769.597C534.036 804.162 479.403 962.37 479.403 962.37" fill="none" opacity="1" stroke="#150b14" stroke-linecap="butt" stroke-linejoin="round" stroke-width="10" vectornator:layerName="Curve 4"/>
+<path d="M315.22 784.529C315.22 784.529 280.913 940.537 253.189 962.37C217.052 990.829 87.2988 980.581 87.2988 980.581" fill="none" opacity="1" stroke="#150b14" stroke-linecap="butt" stroke-linejoin="round" stroke-width="10" vectornator:layerName="Curve 5"/>
+<path d="M1577.46 658.162C1577.46 588.371 1633.87 531.795 1703.45 531.795C1773.04 531.795 1829.44 588.371 1829.44 658.162C1829.44 727.952 1773.04 784.529 1703.45 784.529C1633.87 784.529 1577.46 727.952 1577.46 658.162Z" fill="#ffffff" fill-rule="nonzero" opacity="1" stroke="#150b14" stroke-linecap="butt" stroke-linejoin="round" stroke-width="10" vectornator:layerName="Oval 2"/>
+<path d="M1622.24 756.711C1622.24 756.711 1593.16 838.187 1508.89 869.686C1385.6 915.771 1117.71 907.222 1117.71 907.222" fill="none" opacity="1" stroke="#150b14" stroke-linecap="butt" stroke-linejoin="round" stroke-width="10" vectornator:layerName="Curve 6"/>
+<path d="M1119.74 906.247C1119.74 906.247 1020.72 736.337 977.767 767.553C934.811 798.768 947.916 1031.11 947.916 1031.11" fill="none" opacity="1" stroke="#150b14" stroke-linecap="butt" stroke-linejoin="round" stroke-width="10" vectornator:layerName="Curve 7"/>
+<path d="M1119.74 907.848C1119.74 907.848 913.314 836.252 859.094 848.003C785.924 863.86 688.365 991.794 688.365 991.794" fill="none" opacity="1" stroke="#150b14" stroke-linecap="butt" stroke-linejoin="round" stroke-width="10" vectornator:layerName="Curve 8"/>
+<path d="M1615.08 778.954C1615.08 778.954 1662.63 802.86 1652.91 859.166C1643.19 915.472 1576.2 1004.18 1576.2 1004.18" fill="none" opacity="1" stroke="#150b14" stroke-linecap="butt" stroke-linejoin="round" stroke-width="10" vectornator:layerName="Curve 9"/>
+<path d="M1611.93 779.655C1611.93 779.655 1477.07 752.334 1399.66 783.858C1322.25 815.382 1302.29 905.752 1302.29 905.752" fill="none" opacity="1" stroke="#150b14" stroke-linecap="butt" stroke-linejoin="round" stroke-width="10" vectornator:layerName="Curve 10"/>
+</g>
+</svg>
