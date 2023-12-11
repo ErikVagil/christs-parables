@@ -30,11 +30,11 @@ export default function Home() {
         <p className='caption'>The Good Samaritan</p>
       </Link>
       <Link to='prodigal-son'>
-        <img className='gallery-img' src='stock2.jpg' width={300}></img>
+        <img className='gallery-img' src='stock3.jpg' width={300}></img>
         <p className='caption'>The Prodigal Son</p>
       </Link>
       <Link to='sower-soils'>
-        <img className='gallery-img' src='stock3.jpg' width={300}></img>
+        <img className='gallery-img' src='stock2.jpg' width={300}></img>
         <p className='caption'>The Sower and Soils</p>
       </Link>
     </div>
