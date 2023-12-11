@@ -1,0 +1,200 @@
+@use '../globals.module.scss' as *;
+
+.good-samaritan {
+  position: relative;
+  min-height: 100dvh;
+}
+
+.left-arrow {
+  border: none;
+  background: none;
+  position: absolute;
+  top: 50%;
+  left: 2%;
+  transform: translate(-50%, -50%);
+}
+
+.right-arrow {
+  border: none;
+  background: none;
+  position: absolute;
+  top: 50%;
+  right: 2%;
+  transform: translate(50%, -50%);
+}
+
+.left-arrow:hover, .right-arrow:hover {
+  cursor: pointer;
+}
+
+.gs img {
+  z-index: -1;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -40%);
+  pointer-events: none;
+  filter: drop-shadow(rgba(0, 0, 0, 0.2) 1rem 1rem);
+  width: 50%;
+  max-height: 80%;
+}
+
+.gs p {
+  font-size: 1.5rem;
+  position: absolute;
+  max-width: 18%;
+  background-color: rgba(0, 0, 0, 0.2);
+  padding: 0.5rem;
+  border-radius: 0.25rem;
+}
+
+// Slide 0
+.gs.slide-0 {
+  div {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: max-content;
+    h1 {
+      font-size: 4rem;
+    }
+    a {
+      color: $clr-light;
+      text-decoration: none;
+      position: absolute;
+      left: 50%;
+      transform: translate(-50%, 0%);
+    }
+  }
+}
+
+// Slide 1
+.gs.slide-1 {
+  img {
+    transform: translate(-60%, -40%);
+  }
+  
+  .p1 {
+    top: 20%;
+    left: 5%;
+  }
+
+  .p2 {
+    top: 40%;
+    right: 5%;
+  }
+}
+
+// Slide 2
+.gs.slide-2 {
+  .p1 {
+    top: 20%;
+    left: 5%;
+  }
+  
+  .p2 {
+    top: 50%;
+    left: 5%;
+  }
+
+  .p3 {
+    top: 25%;
+    right: 5%;
+  }
+
+  .p4 {
+    top: 55%;
+    right: 5%;
+  }
+}
+
+// Slide 3
+.gs.slide-3 {
+  .p1 {
+    top: 30%;
+    left: 5%;
+  }
+  
+  .p2 {
+    top: 30%;
+    right: 5%;
+  }
+}
+
+// Slide 4
+.gs.slide-4 {
+  .p1 {
+    top: 40%;
+    left: 5%;
+  }
+
+  .p2 {
+    top: 40%;
+    right: 5%;
+  }
+}
+
+// Slide 5
+.gs.slide-5 {
+  .p1 {
+    top: 35%;
+    left: 5%;
+  }
+
+  .p2 {
+    top: 37%;
+    right: 5%;
+  }
+}
+
+// Slide 6
+.gs.slide-6 {
+  .p1 {
+    top: 35%;
+    left: 5%;
+  }
+
+  .p2 {
+    top: 30%;
+    right: 5%;
+  }
+}
+
+// Slide 7
+.gs.slide-7 {
+  img {
+    transform: translate(-60%, -40%);
+  }
+  
+  .p1 {
+    top: 35%;
+    left: 5%;
+  }
+
+  .p2 {
+    top: 33%;
+    right: 5%;
+  }
+}
+
+// Slide 8
+.gs.slide-8 {
+  div {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: fit-content;
+
+    h1 {
+      font-size: 4rem;
+    }
+
+    p {
+      position: static;
+      background: none;
+      max-width: 100%;
+    }
+  }
+}

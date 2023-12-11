@@ -38,6 +38,7 @@ export default function Home() {
         <p className='caption'>The Sower and Soils</p>
       </Link>
     </div>
+    <h3>For the intended user experience, please use a desktop or laptop and make your browser fullscreen.</h3>
     <div className='spacer' style={{height: '3rem'}} />
     <p className='copyright-disclaimer'>&copy; 2023 Erik Vagil</p>
   </div>;
